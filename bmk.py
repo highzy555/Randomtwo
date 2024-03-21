@@ -176,6 +176,6 @@ async def on_ready():
    start_color=Color.purple,
    end_color=Color.blue
 )
-    await bot.change_presence(activity=nextcord.Streaming(name="Black Market", url="https://www.twitch.tv/example_channel"))
+    await bot.change_presence(activity=nextcord.Streaming(name="Highzy Shop!", url="https://www.twitch.tv/example_channel"))
 
 bot.run(token)
